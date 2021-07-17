@@ -1,0 +1,107 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: white;
+	font-family: 'Oxygen', sans-serif;
+}
+
+.navbar-brand h1, #nav-list a, .main-content-header, .main-content-body-header {
+	font-weight: bold;
+}
+
+/*** HEADER ***/
+#header-nav {
+	background-color: #999999;
+	border-radius: 0;
+	border: 0;	
+	border: 2px solid #000000;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+}
+.navbar-brand h1 { /* company name */
+  font-family: 'Lora', serif;
+  color: #000000;
+  font-size: 1.5em;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+	margin-top: 0;
+	margin-bottom: 0;
+
+}
+#nav-list a {
+	color: #951C49;
+	text-align: center;
+	background-color: white;
+}
+#nav-list a:hover {
+	background-color: #bfbfbf;
+}
+/*** END HEADER ***/
+
+/*** MAIN CONTENT ***/
+.main-content-header {
+	color: #000000;
+	margin-top: 5px;
+	padding-bottom: 15px;
+}
+#main-content-body {
+	background-color: #999999;
+	padding-top: 2px;
+	margin-bottom: 70px;
+}
+#main-content-body-header {	
+	font-size: 1.3em;
+	color: #000000;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	
+}
+#main-content-body-text {
+	padding: 10px;
+	color: #000000;
+}
+
+#hLine {
+    	border-top: 2px solid #000000;    	
+    	margin-top: 0;
+    	margin-bottom: 0;
+    	width: 95%       
+    }
+
+/*** END MAIN CONTENT ***/
+
+
+/*******Extra small device only*********/
+@media (max-width: 767px) {
+	/*Header*/	
+	.navbar-brand {
+		padding-top: 12px;
+		padding-left: 35px;
+	}
+	.navbar-brand h1 { 
+		font-size: 5vw;
+		padding-bottom: 5px;
+	}	
+
+	#collapsable-nav a {
+		font-size: 1em;
+		color: #000000;
+		margin-bottom: 0;		
+    }
+    /*End Header*/
+
+    #main-content-body {
+		 margin: 0 10% 100px;
+		 width: 80%;
+    }
+}
